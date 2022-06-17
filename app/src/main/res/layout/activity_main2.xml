@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:id="@+id/ahcac"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#297E04">
+
+        <ImageView
+            android:id="@+id/aaa"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/menu"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/agufsdgafsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/aaa"
+            android:fontFamily="sans-serif-black"
+            android:text="Journal App"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:src="@drawable/dots"
+            app:tint="@color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/abc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note2"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="2 phút trước"
+        android:textColor="@color/black" />
+
+    <RelativeLayout
+        android:id="@+id/note1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/abc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="7dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/note"
+        android:backgroundTint="#C8F3BF">
+
+        <TextView
+            android:id="@+id/haha1"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="23:08 PM"
+            android:textAlignment="center"
+            android:textColor="#0E0597"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/haha1"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:paddingHorizontal="25dp"
+            android:text="Day 1"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/haha1"
+            android:gravity="center"
+            android:paddingHorizontal="25dp"
+            android:text="Lam mot cai gi do"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/abc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note21"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Vừa mới"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/note2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/abc1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="7dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/note"
+        android:backgroundTint="#EFDEA3"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/haha"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="10:05 PM"
+            android:textAlignment="center"
+            android:textColor="#0E0597"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/haha"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:paddingHorizontal="25dp"
+            android:text="Day 2"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/haha"
+            android:gravity="center"
+            android:paddingHorizontal="25dp"
+            android:text="Khong lam gi ca"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/abc11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ahcac"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Vừa mới"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/note21"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/abc11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="7dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/note"
+        android:backgroundTint="#E2B5F6"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/haha22"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="10:05 PM"
+            android:textAlignment="center"
+            android:textColor="#0E0597"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/haha22"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:paddingHorizontal="25dp"
+            android:text="Day 3"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@+id/haha22"
+            android:gravity="center"
+            android:paddingHorizontal="25dp"
+            android:text="Nhu ngay 2"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/add_new_note"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#5AAC07"
+        android:background="@drawable/add"
+        android:src="@drawable/draw"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/draw"
+            app:tint="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/add_note_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90000000">
+
+        <RelativeLayout
+            android:layout_width="280dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/dialog"
+            android:backgroundTint="#FFFFFF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="25dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Thêm Journal của bạn"
+                android:textAlignment="center"
+                android:textColor="#146505"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/input"
+                android:hint="Tiêu đề"
+                android:paddingHorizontal="15dp"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/input"
+                android:hint="Mô tả"
+                android:paddingHorizontal="15dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/them"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="95dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Thêm"
+                android:textColor="#1C7C05" />
+
+            <TextView
+                android:id="@+id/huy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Hủy"
+                android:textColor="#83060A" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
